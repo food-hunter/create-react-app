@@ -1,3 +1,23 @@
 # The Sourdough Hut
-## This is the code repository
-After completing Free Code Camp and my responsive web design certification, I tried the React framework and some Javascript tutorials. This application was bootstrapped with the Create React app. I created multiple components and used some of the markup from my Free Code Camp courses to render React components. I later added React Router. This enables the URL to correspond with the element rendered on the page. You can check this site out live at [The Vercel Deployment](https://create-react-app-xi-blush-18.vercel.app/)
+## Welcome to the code repository for The Sourdough Hut!
+After completing my FreeCodeCamp Responsive Web Design certification and exploring React and JavaScript tutorials, I built this project to apply what I learned. This application was bootstrapped with Create React App and expanded to include multiple custom components and React Router.
+
+### Project Highlights
+React Components: I structured the application using reusable React components, integrating markup and styling concepts from my FreeCodeCamp courses.
+
+### Dynamic Routing: 
+React Router was added to handle dynamic navigation, allowing each URL to correspond with the appropriate component. This feature enhances the user experience by supporting seamless transitions between pages.
+
+### Lessons:
+While building this project, I encountered issues with CSS styles leaking into other components.
+To fix this, I switched over to CSS Modules. By renaming my stylesheets to .module.css, I could scope styles directly to each component. Now, each component has its own set of styles that won’t interfere with any others, making it way easier to keep things organized and consistent.
+
+Live Demo
+You can view this project live on Vercel.
+https://create-react-app-git-main-zheng-chias-projects.vercel.app/
+
+
+
+
+
+
