@@ -1,16 +1,32 @@
+:root {
+  --bg-color: #e1e1d8;
+}
+
 .App {
   text-align: center;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   min-height: calc(100vh - 60px);
-  background-color: #e1e1d8;
+  background-color: var(--bg-color);
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 200px;
+}
+
+.App-logo-small {
+  height: 20vmin;
+  pointer-events: none;
+  border-radius: 3rem;
+  margin-top: 6rem;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Photo-logo {
+  height: 40vmin;
+  border-radius: 10%;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .App-logo-spin-back {
@@ -32,41 +48,12 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg); /* Forward spin */
-  }
-}
-
-@keyframes App-logo-spin-back {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg); /* Backward spin */
-  }
-}
-
-@keyframes App-logo-fast-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg); /* Faster forward spin */
-  }
-}
-
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: #e1e1d8;
   overflow: hidden;
   min-height: 60px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav p {
   float: left;
   color: #353131;
@@ -76,13 +63,11 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav p:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav p.active {
   background-color: #9e7153;
   color: white;
@@ -109,15 +94,6 @@ h1,
 h2,
 p {
   text-align: center;
-}
-
-.menu {
-  width: 80%;
-  background-color: #e1e1d8;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 500px;
 }
 
 img {
