@@ -16,7 +16,11 @@ const Home = () => {
       </div>
       <div className={styles.logo}>
         <p>
-          <img src={logo} className="App-logo-small" alt="brand logo" />
+          <img
+            src={logo}
+            className="App-logo-small"
+            alt="Sourdough Hut Brand Logo"
+          />
           Sourdough Hut
         </p>
       </div>
