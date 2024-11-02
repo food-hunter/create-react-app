@@ -1,23 +1,23 @@
-import bread from "../../sourdough-bread.webp"
-import bun from "../../Bao.webp"
-import bagel from "../../bagel.webp"
-import latte from "../../latte.webp"
-import logo from "../../logo.jpg"
+import React from "react"
 import styles from "./Home.module.css"
 
 const Home = () => {
   return (
     <>
       <div className={styles.home}>
-        <img src={bread} className="App-logo" alt="bread" />
-        <img src={latte} className="App-logo" alt="matcha latte" />
-        <img src={bun} className="App-logo" alt="bao bun" />
-        <img src={bagel} className="App-logo" alt="bagel" />
+        <img
+          src="/images/sourdough-bread.webp"
+          className="App-logo"
+          alt="bread"
+        />
+        <img src="/images/latte.webp" className="App-logo" alt="matcha latte" />
+        <img src="/images/Bao.webp" className="App-logo" alt="bao bun" />
+        <img src="/images/bagel.webp" className="App-logo" alt="bagel" />
       </div>
       <div className={styles.logo}>
         <p>
           <img
-            src={logo}
+            src="/images/logo.jpg"
             className="App-logo-small"
             alt="Sourdough Hut Brand Logo"
           />

@@ -1,11 +1,10 @@
-import logo from "../../headshot.jpg"
 import styles from "./About.module.css"
 
 const Bbb = () => {
   return (
     <>
       <div className={styles.about}>
-        <img src={logo} className="Photo-logo" alt="logo" />
+        <img src={"/images/headshot.jpg"} className="Photo-logo" alt="logo" />
         <div style={{ marginLeft: "100px" }}>
           <h1>Hi, Welcome to the Sourdough Hut!</h1>
           <p>
