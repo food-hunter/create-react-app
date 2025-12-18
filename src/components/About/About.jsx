@@ -1,11 +1,16 @@
 import styles from "./About.module.css"
 
-const Bbb = () => {
+const About = () => {
   return (
     <>
       <div className={styles.about}>
-        <img src={"/images/headshot.jpg"} className="Photo-logo" alt="logo" />
-        <div style={{ marginLeft: "100px" }}>
+        <img 
+          src={"/images/headshot.jpg"} 
+          className={styles.photoLogo} 
+          alt="Sourdough Hut founder"
+          loading="lazy"
+        />
+        <div className={styles.textContent}>
           <h1>Hi, Welcome to the Sourdough Hut!</h1>
           <p>
             My name is Zheng, and I'm the founder of the Sourdough Hut. My
@@ -23,4 +28,4 @@ const Bbb = () => {
   )
 }
 
-export default Bbb
+export default About

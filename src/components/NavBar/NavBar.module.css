@@ -1,0 +1,17 @@
+.navbar {
+  margin-top: 1rem;
+}
+
+/* Mobile devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Tablets (landscape phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    margin-top: 0.75rem;
+  }
+}
